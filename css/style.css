@@ -49,10 +49,16 @@ body {
   height: 35px;
 }
 
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
-  position: absolute;
 }
 
 .heading-primary-main {
