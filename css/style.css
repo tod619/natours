@@ -7,7 +7,9 @@
    Dark Green: #28b485
 */
 /* Start: default styles */
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
