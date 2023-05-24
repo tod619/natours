@@ -10,7 +10,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
@@ -20,10 +20,11 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   line-height: 1.7;
   color: #777;
   padding: 3rem;
+  box-sizing: border-box;
 }
 
 /* End: default styles */
@@ -34,6 +35,7 @@ body {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 1.6rem;
   padding: 1.5rem 4rem;
   border-radius: 10rem;
   transition: all 0.2s;
